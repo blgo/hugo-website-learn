@@ -1,10 +1,10 @@
 baseURL = "http://blgo-learns-hugo.netlify.com/"
-languageCode = "en-uk"
+languageCode = "en"
 title = "A learning Hugo website hosted in Netlify"
 theme = "hugo-theme-learn"
 
 [Languages]
-[Languages.en-uk]
+[Languages.en]
 languageName = "English"
 weight = 1
 
