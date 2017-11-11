@@ -1,3 +1,14 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "http://blgo-learns-hugo.netlify.com/"
+languageCode = "en-uk"
+title = "A learning Hugo website hosted in Netlify"
+theme = "hugo-theme-learn"
+
+[Languages]
+[Languages.en-uk]
+languageName = "English"
+weight = 1
+
+[Languages.es]
+languageName = "Español"
+title = "Una pagina web para aprender Hugo, hospedada en Netlify"
+weight = 2
