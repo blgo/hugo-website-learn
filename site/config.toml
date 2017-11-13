@@ -12,3 +12,6 @@ weight = 1
 languageName = "Español"
 title = "Una pagina web para aprender Hugo, hospedada en Netlify"
 weight = 2
+
+[output]
+home = ["HTML", "RSS", "JSON"]

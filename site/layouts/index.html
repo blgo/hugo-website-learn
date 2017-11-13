@@ -1,4 +1,17 @@
 {{ partial "header.html" . }}
+<!-- Script for netlifyCMS to redirect from homepage to admin page after successful logging -->
+<script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+</script>
+
 <span id="sidebar-toggle-span">
 <a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
 </span>
