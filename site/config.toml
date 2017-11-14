@@ -2,6 +2,9 @@ baseURL = "http://blgo-learns-hugo.netlify.com/"
 languageCode = "en"
 title = "A learning Hugo website hosted in Netlify"
 theme = "hugo-theme-learn"
+[params]
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "blue"
 
 [Languages]
 [Languages.en]
